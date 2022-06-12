@@ -9,6 +9,7 @@ Project base on the INA163 instrumentation amplifier for the readout of encephal
 - Electrodes (highly recommended use of either silver or gold-plated electrodes)
 - 3,5mm male to male audio cable
 - A PC running Matlab (Maybe python in a future, who knows) with 3,5mm mic input
+- Conductive gel
 
 ## PCB construction
 
@@ -31,6 +32,8 @@ The connection of the electrodes can be carried out in multiple different ways. 
 
 As a first approach, using two electrodes for measuring the left and right halfs of the frontal lobe and a third electrode as a wirtual ground behind your ear can be a good solution for measuring alfa waves and eye blinks. 
 
+Remeber to apply conductive gel between the electrode and the skull and to get the electrodes as fixed to the head as possible without hurting the patient, since loose electrodes can lead to noise in the measurements 
+
 #### The PCB
 
 The PCB is powered though two batteries (between 7V and 12V each) so that the operational amplifiers can work with both positive and negative voltages.
@@ -40,3 +43,7 @@ Connect the electrodes to the PCB and the PCB to the audio input of your laptop.
 #### The software
 
 Cuando tenga tiempo escribo algo wapo, primero tengo que mriar si funciona
+
+## Other uses
+
+Due to the high sensibility of the devide, the EECutre may also be used for readout of Electrocardiographic signals as well as Electromipgraphic signals. Just connect different electrodes to the input ports of the PCB and have fun!
