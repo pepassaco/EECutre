@@ -18,6 +18,11 @@ Just solder the SMD components as shown in the schematic. It is highly recommend
 
 **IMPORTANT:** for safety issues, it is recommended to run this program from a laptop computer not connected to the plug of your house. I mean, this is as risky as wearing some wired headsets, but everyone warns about this online, so here I am. I'm not responsible for anything, u know.
 
+**Note:** This is not an easy project for plug-n-play users. The amplifiers are highly sensitive to noise and you will surely have to debug the system in order to obtain optimal performance. In this way, I highly recommend reading some papers about how EEG really work in order to fully understand what we are trying to achieve. As a first reference, I can recommend the following video: 
+
+[An introduction to EEG](https://www.youtube.com/watch?v=XMizSSOejg0)
+
+
 #### Connection of electrodes
 
 The connection of the electrodes can be carried out in multiple different ways. It will all depend on how many electrodes you have and what signals you want to measure. Moreover, since we are using differential amplifiers, the signal will be measured between the difference of two point, so that there will be no absolute ground. This way, you will have to decide what electrode to compare with which one in order to see the signal you are looking for. See the following great video in order to understand the different usual montages: 
