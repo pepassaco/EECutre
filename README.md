@@ -3,9 +3,12 @@ Electroencephalography made cheap and easy
 
 Project base on the INA163 instrumentation amplifier for the readout of encephalographic signals
 
+The overall cost of one device (including the INA163 and three electrodes) should be under 50€ (updated 06/2022) (yes, Aliexpress is your friend). It is also easy to build (it only requires basic soldering skills) and does not require neither special power supply nor other electronics instrumentation for it to work
+
 ## Materials needed
 
 - The designed PCB (schematics in this repo)
+- Two 7V-12V batteries
 - Electrodes (highly recommended use of either silver or gold-plated electrodes)
 - 3,5mm male to male audio cable
 - A PC running Matlab (Maybe python in a future, who knows) with 3,5mm mic input
